@@ -69,7 +69,7 @@
           });
 
           if (!response.ok) {
-              throw new Error("Invalid credentials");
+              throw new Error("Invalid credential");
           }
 
           const token = await response.text();
